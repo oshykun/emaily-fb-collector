@@ -1,0 +1,19 @@
+{
+  "name": "fb_collector",
+  "version": "1.0.0",
+  "description": "Feedback collector app.",
+  "main": "index.js",
+  "engines": {
+    "node": "8.9.4",
+    "npm": "5.6.0"
+  },
+  "scripts": {
+    "start": "npm run server",
+    "server": "node server/index.js"
+  },
+  "author": "Oleksii Shykun",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
